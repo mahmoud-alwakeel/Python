@@ -1,6 +1,10 @@
 myVariable = "My Variable"
 
+# Camel case
 _myVariable = "My Variable 2"
+
+# Snake case
+my_variable = "My Variable 2"
 
 # We cannot start a variable name with a number, so the following line would cause an error if uncommented
 # 100myVariable = "My Variable 2"
@@ -11,6 +15,8 @@ my3Variable3 = "My Variable 3"
 
 print(myVariable)
 print(_myVariable)
+print(my_variable)
 # print(100myVariable)
 print(my3Variable3)
 # print(my-Variable3)
+
