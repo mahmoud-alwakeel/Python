@@ -8,7 +8,7 @@ setTwo = {"A", "B", "c"}
 setThree = {"1","2","3"}
 setX = {"cool", "Great"}
 print(setTwo.union(setThree, setX))
-print(setTwo | setThree)
+print(setTwo | setThree) # | here represents Union
 
 setExample = {1, True, "one", (1,2,3)}
 print(setExample)
